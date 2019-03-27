@@ -9,6 +9,12 @@ namespace DellChallenge.A
             // State and explain console output order.
             new B();
             Console.ReadKey();
+
+            //A.A()  // the base class constructor is called first 
+            //B.B()  
+            //A.Age
+
+
         }
     }
 
@@ -36,6 +42,7 @@ namespace DellChallenge.A
     {
         public B()
         {
+            
             Console.WriteLine("B.B()");
             Age = 0;
         }
