@@ -12,5 +12,13 @@
         <div class="col-md-4">
             @item.Name - @item.Category
         </div>
+        <div>
+            <a class="btn btn-primary btnDelete" href="@Url.Action("Update", "Product", new { id = item.Id})">Update</a>
+            <a class="btn btn-danger btnDelete" deleteurl="@Url.Action("Delete", "Product", new { id = item.Id})">Delete</a>
+        </div>
     </div>
 }
+
+
+
+

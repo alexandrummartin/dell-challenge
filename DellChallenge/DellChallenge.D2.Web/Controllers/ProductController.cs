@@ -29,8 +29,43 @@ namespace DellChallenge.D2.Web.Controllers
         [HttpPost]
         public IActionResult Add(NewProductModel newProduct)
         {
+            if (!ModelState.IsValid)
+            {
+                return View("Add", newProduct);
+            }
+
             _productService.Add(newProduct);
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Update(string id)
+        {
+            var productModel = _productService.Get(id);
+
+            return View("Edit", productModel);
+        }
+
+        [HttpPost]
+        public IActionResult Update(ProductModel model)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return View("Edit", model);
+            }
+
+            _productService.Update(model.Id, model);
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Delete(string id)
+        {
+            _productService.Delete(id);
+
+            return Json(new { ok = true, redirectUrl = Url.Action("Index", "Product") });
         }
     }
 }
