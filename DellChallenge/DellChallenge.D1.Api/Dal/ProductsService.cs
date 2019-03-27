@@ -21,16 +21,48 @@ namespace DellChallenge.D1.Api.Dal
         public ProductDto Add(NewProductDto newProduct)
         {
             var product = MapToData(newProduct);
+
             _context.Products.Add(product);
             _context.SaveChanges();
+
             var addedDto = MapToDto(product);
             return addedDto;
         }
-
+            
         public ProductDto Delete(string id)
         {
-            throw new System.NotImplementedException();
+            var prodToDelete = _context.Products.Where(item => item.Id == id.ToString()).FirstOrDefault();
+
+            if (prodToDelete == null)
+            {
+                return null;
+            }
+
+            _context.Products.Remove(prodToDelete);
+            _context.SaveChanges();
+
+            return MapToDto(prodToDelete);
         }
+
+        public ProductDto Update(string id, ProductDto productDto)
+        {
+            var product = _context.Products.Where(item => item.Id == id).FirstOrDefault();
+            if (product == null)
+            {
+                return null;
+            }
+                       
+            product.Name = productDto.Name;
+            product.Category = productDto.Category;
+
+            _context.Products.Update(product);
+            _context.SaveChanges();
+
+            var updatedDto = MapToDto(product);
+
+            return updatedDto;
+        }
+
 
         private Product MapToData(NewProductDto newProduct)
         {

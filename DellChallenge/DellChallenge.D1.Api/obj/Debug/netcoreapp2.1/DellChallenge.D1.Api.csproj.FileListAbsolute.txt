@@ -1,0 +1,13 @@
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\bin\Debug\netcoreapp2.1\DellChallenge.D1.Api.deps.json
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\bin\Debug\netcoreapp2.1\DellChallenge.D1.Api.runtimeconfig.json
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\bin\Debug\netcoreapp2.1\DellChallenge.D1.Api.runtimeconfig.dev.json
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\bin\Debug\netcoreapp2.1\DellChallenge.D1.Api.dll
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.csproj.CoreCompileInputs.cache
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.RazorAssemblyInfo.cache
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.RazorAssemblyInfo.cs
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.AssemblyInfoInputs.cache
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.AssemblyInfo.cs
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.RazorTargetAssemblyInfo.cache
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\bin\Debug\netcoreapp2.1\DellChallenge.D1.Api.pdb
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.dll
+F:\UserData\amartin\Downloads\dell-challenge-master\DellChallenge\DellChallenge.D1.Api\obj\Debug\netcoreapp2.1\DellChallenge.D1.Api.pdb
